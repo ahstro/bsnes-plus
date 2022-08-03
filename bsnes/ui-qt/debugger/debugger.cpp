@@ -49,6 +49,7 @@ Debugger::Debugger() {
   application.windowList.append(this);
 
   layout = new QVBoxLayout;
+  layout->setSizeConstraint(QLayout::SetNoConstraint);
   layout->setMargin(Style::WindowMargin);
   layout->setSpacing(Style::WidgetSpacing);
   setLayout(layout);

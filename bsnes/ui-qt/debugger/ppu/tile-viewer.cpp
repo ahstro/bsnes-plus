@@ -17,7 +17,7 @@ TileViewer::TileViewer() {
   inExportClickedCall = false;
 
   layout = new QHBoxLayout;
-  layout->setSizeConstraint(QLayout::SetMinimumSize);
+  layout->setSizeConstraint(QLayout::SetNoConstraint);
   layout->setAlignment(Qt::AlignLeft);
   layout->setMargin(Style::WindowMargin);
   layout->setSpacing(Style::WidgetSpacing);
